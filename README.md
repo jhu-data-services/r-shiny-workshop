@@ -6,6 +6,6 @@ R-Shiny Workshop materials for the JHU Data Services R Workshop Series: [https:/
 ### Software Install
 This workshop requires installation of the following:
 
-* The [R-Studio](https://rstudio.com/) R IDE software. R-Studio is available for Windows, Mac, and Linux. Follow the installation instructions specific to your operating system.
+* The [R-Studio](https://rstudio.com/products/rstudio/download) R IDE software. R-Studio is available for Windows, Mac, and Linux. Follow the installation instructions specific to your operating system.
 * R Libraries:
- * Install `shiny` using the command `install.packages("shiny")`
+  * Install https://shiny.rstudio.com/ using the command `install.packages("shiny")`
