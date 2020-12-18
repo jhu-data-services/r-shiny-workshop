@@ -10,7 +10,7 @@ link-citations: yes
 description: "A workshop on interactive data visualization using the R-Shiny library in the R programming language."
 ---
 
-# Prerequisites
+# Introduction
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
