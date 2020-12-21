@@ -1,5 +1,6 @@
 intro
-run-your-first-shiny-app
+structure-of-a-shiny-app
+building-your-first-shiny-app
 methods
 applications
 example-one
