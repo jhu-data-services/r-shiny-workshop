@@ -10,7 +10,7 @@ link-citations: yes
 description: "A workshop on interactive data visualization using the R-Shiny library in the R programming language."
 ---
 
-# Introduction
+# Introduction {-}
 
 Welcome to the JHU Data Services **Shiny** tutorial! 
 
