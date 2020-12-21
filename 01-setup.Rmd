@@ -4,7 +4,7 @@ Before we can get started you will need to ensure you have the necessary librari
 
 To install the **Shiny** package ensure you are connected to the internet, then run:
 
-```{r install-shiny, message=FALSE, results='hide'}
+```{r install-shiny, eval=FALSE, message=FALSE, results='hide'}
 install.packages("shiny")
 ```
 
