@@ -4,9 +4,12 @@ Before we can get started you will need to ensure you have the necessary librari
 
 To install the **Shiny** package ensure you are connected to the internet, then run:
 
-```{r load-shiny}
+```{r install-shiny}
 install.packages("shiny")
-)
 ```
 
 If you are using RStudio (which is highly recommended for this tutorial) you can also install **Shiny** by selecting the `Packages` tab, then selecting the `Install button` and entering `Shiny` in the `Packages: (separate multiple with space or comma):` form field and pressing `install`.
+
+```{r load-shiny}
+library(shiny)
+```
