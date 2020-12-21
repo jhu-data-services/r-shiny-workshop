@@ -1,8 +1,6 @@
-fig:nice-fig
-tab:nice-tab
 introduction
 intro
-setup
+run-your-first-shiny-app
 methods
 applications
 example-one
