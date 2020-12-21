@@ -18,4 +18,4 @@ git-add:
 	git add *
 	git commit -m "Compiled book."
 	git push
-	@echo "Git commit completed."
+	@echo "New changes committed to GitHub."
