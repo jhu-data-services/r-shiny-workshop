@@ -13,3 +13,5 @@ If you are using RStudio (which is highly recommended for this tutorial) you can
 ```{r load-shiny}
 library(shiny)
 ```
+
+![Install Shiny](screenshots/install-shiny.png)
