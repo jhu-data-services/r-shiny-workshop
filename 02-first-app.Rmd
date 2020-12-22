@@ -1,5 +1,6 @@
-# Structure of a Shiny App
+# Introduction to R-Shiny
 
+## Structure of a Shiny App
 Shiny apps are run from a single script `app.R` that is made up of three parts:
 
 ## Building Your First Shiny App

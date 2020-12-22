@@ -1,8 +1,9 @@
 intro
+introduction-to-r-shiny
 structure-of-a-shiny-app
 building-your-first-shiny-app
-methods
-applications
+designing-shiny-user-interfaces
+adding-control-widgets-to-shiny
 example-one
 example-two
-final-words
+displaying-reactive-output
