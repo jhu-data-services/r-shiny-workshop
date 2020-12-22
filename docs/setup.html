@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 Setup | Interactive Data Visualization with R-Shiny</title>
+  <title>Setup | Interactive Data Visualization with R-Shiny</title>
   <meta name="description" content="A workshop on interactive data visualization using the R-Shiny library in the R programming language." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 Setup | Interactive Data Visualization with R-Shiny" />
+  <meta property="og:title" content="Setup | Interactive Data Visualization with R-Shiny" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 Setup | Interactive Data Visualization with R-Shiny" />
+  <meta name="twitter:title" content="Setup | Interactive Data Visualization with R-Shiny" />
   
   <meta name="twitter:description" content="A workshop on interactive data visualization using the R-Shiny library in the R programming language." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="intro.html"/>
-<link rel="next" href="methods.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="introduction-to-r-shiny.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -131,15 +131,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">R-Shiny Workshop</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Setup</a></li>
-<li class="chapter" data-level="3" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>3</b> Setup</a></li>
-<li class="chapter" data-level="4" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>4</b> Methods</a></li>
-<li class="chapter" data-level="5" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>5</b> Applications</a><ul>
-<li class="chapter" data-level="5.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>5.1</b> Example one</a></li>
-<li class="chapter" data-level="5.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>5.2</b> Example two</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i>Setup</a></li>
+<li class="chapter" data-level="1" data-path="introduction-to-r-shiny.html"><a href="introduction-to-r-shiny.html"><i class="fa fa-check"></i><b>1</b> Introduction to R-Shiny</a><ul>
+<li class="chapter" data-level="1.1" data-path="introduction-to-r-shiny.html"><a href="introduction-to-r-shiny.html#structure-of-a-shiny-app"><i class="fa fa-check"></i><b>1.1</b> Structure of a Shiny App</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction-to-r-shiny.html"><a href="introduction-to-r-shiny.html#building-your-first-shiny-app"><i class="fa fa-check"></i><b>1.2</b> Building Your First Shiny App</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>6</b> Final Words</a></li>
+<li class="chapter" data-level="2" data-path="designing-shiny-user-interfaces.html"><a href="designing-shiny-user-interfaces.html"><i class="fa fa-check"></i><b>2</b> Designing Shiny User Interfaces</a></li>
+<li class="chapter" data-level="3" data-path="adding-control-widgets-to-shiny.html"><a href="adding-control-widgets-to-shiny.html"><i class="fa fa-check"></i><b>3</b> Adding Control Widgets to Shiny</a><ul>
+<li class="chapter" data-level="3.1" data-path="adding-control-widgets-to-shiny.html"><a href="adding-control-widgets-to-shiny.html#example-one"><i class="fa fa-check"></i><b>3.1</b> Example one</a></li>
+<li class="chapter" data-level="3.2" data-path="adding-control-widgets-to-shiny.html"><a href="adding-control-widgets-to-shiny.html#example-two"><i class="fa fa-check"></i><b>3.2</b> Example two</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="displaying-reactive-output.html"><a href="displaying-reactive-output.html"><i class="fa fa-check"></i><b>4</b> Displaying Reactive Output</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://dataservices.library.jhu.edu" target="blank">JHU Data Services</a></li>
@@ -161,9 +164,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="setup" class="section level1">
-<h1><span class="header-section-number">Chapter 3</span> Setup</h1>
-<p>Here is a review of existing methods.</p>
+<div id="setup" class="section level1 unnumbered">
+<h1>Setup</h1>
+<p>Before we can get started you will need to ensure you have the necessary libraries installed.</p>
+<p>To install the <strong>Shiny</strong> package ensure you are connected to the internet, then run:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">install.packages</span>(<span class="st">&quot;shiny&quot;</span>)</a></code></pre></div>
+<p>If you are using RStudio (which is highly recommended for this tutorial) you can also install <strong>Shiny</strong> by selecting the <code>Packages</code> tab, then selecting the <code>Install button</code> and entering <code>Shiny</code> in the <code>Packages: (separate multiple with space or comma):</code> form field and pressing <code>install</code>.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="kw">library</span>(shiny)</a></code></pre></div>
 
 </div>
             </section>
@@ -171,8 +178,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="methods.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="introduction-to-r-shiny.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

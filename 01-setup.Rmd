@@ -1,4 +1,4 @@
-# Setup {#intro}
+# Setup {-}
 
 Before we can get started you will need to ensure you have the necessary libraries installed.
 
