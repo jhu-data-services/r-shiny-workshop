@@ -189,16 +189,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2><span class="header-section-number">1.2</span> Building Your First Shiny App</h2>
 <p>Lets begin by building a very simple app to help us build our intuition about how Shiny apps work.</p>
 <p>Create a new directory called <code>shiny-hello-world</code> in a directory of your choice. From within that directory create a new file called <code>app.R</code>.</p>
-<p>Within <code>app.R</code> we are going to add the three components we need for a working Shiny app, <code>ui</code>, <code>server</code>, and <code>shinyApp</code> that we showed the code for above.</p>
+<p>Within <code>app.R</code> we are going to add the three components we need for a working Shiny app, <code>ui</code>, <code>server</code>, and <code>shinyApp</code> that we showed the code for above, except now we will populate them so your <code>app.R</code> can successfully run.</p>
 <p>Your <code>app.R</code> should look like:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="kw">library</span>(shiny)</a>
 <a class="sourceLine" id="cb4-2" title="2"></a>
-<a class="sourceLine" id="cb4-3" title="3">ui &lt;-</a>
-<a class="sourceLine" id="cb4-4" title="4"></a>
-<a class="sourceLine" id="cb4-5" title="5">server &lt;-</a>
+<a class="sourceLine" id="cb4-3" title="3">ui &lt;-<span class="st"> </span><span class="kw">fluidPage</span>(</a>
+<a class="sourceLine" id="cb4-4" title="4">  </a>
+<a class="sourceLine" id="cb4-5" title="5">)</a>
 <a class="sourceLine" id="cb4-6" title="6"></a>
-<a class="sourceLine" id="cb4-7" title="7"><span class="kw">shinyApp</span>(ui, server)  </a></code></pre></div>
-<p>Once again we have</p>
+<a class="sourceLine" id="cb4-7" title="7">server &lt;-<span class="st"> </span><span class="cf">function</span>(input, output, session) {</a>
+<a class="sourceLine" id="cb4-8" title="8">  </a>
+<a class="sourceLine" id="cb4-9" title="9">}</a>
+<a class="sourceLine" id="cb4-10" title="10"></a>
+<a class="sourceLine" id="cb4-11" title="11"><span class="kw">shinyApp</span>(ui, server)</a></code></pre></div>
+<p>If you are using R-Studio, rather than typing all of the above code into your <code>app.R</code> file, you can type <code>shinyapp</code> and then press <kbd>Shift</kbd>+<kbd>Enter</kbd></p>
 
 </div>
 </div>

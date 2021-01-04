@@ -29,18 +29,22 @@ Lets begin by building a very simple app to help us build our intuition about ho
 
 Create a new directory called `shiny-hello-world` in a directory of your choice. From within that directory create a new file called `app.R`.
 
-Within `app.R` we are going to add the three components we need for a working Shiny app, `ui`, `server`, and `shinyApp` that we showed the code for above.
+Within `app.R` we are going to add the three components we need for a working Shiny app, `ui`, `server`, and `shinyApp` that we showed the code for above, except now we will populate them so your `app.R` can successfully run.
 
 Your `app.R` should look like:
 
 ```{r shiny-skeleton-empty, eval=FALSE}
 library(shiny)
 
-ui <-
+ui <- fluidPage(
+  
+)
 
-server <-
+server <- function(input, output, session) {
+  
+}
 
-shinyApp(ui, server)  
+shinyApp(ui, server)
 ```
 
-Once again we have
+If you are using R-Studio, rather than typing all of the above code into your `app.R` file, you can type `shinyapp` and then press <kbd>Shift</kbd>+<kbd>Enter</kbd>
