@@ -7,4 +7,13 @@ Shiny apps are run from a single script `app.R` that is made up of three parts:
 * A server function: The server function controls how your Shiny app **runs**.
 * A `shinyApp` function: The `shinyApp` function **builds** your Shiny app.
 
+```{r shiny-skeleton, eval=FALSE}
+library(shiny)
+
+ui <- ...
+
+server <- ...
+
+shinyApp(ui = ui, server = server)
+ ```
 ## Building Your First Shiny App
