@@ -7,6 +7,10 @@ Shiny apps are run from a single script `app.R` that is made up of three parts:
 * A server function: The server function controls how your Shiny app **runs**.
 * A `shinyApp` function: The `shinyApp` function **builds** your Shiny app.
 
+The user interface and server components of a Shiny app can be stored in separate files, `ui.R` and `server.R`, or together in a single file, `app.R`. It will be easier for us to work with a single file during this tutorial, so we will use the unified `app.R` structure for this tutorial.
+
+A Shiny app without any content looks like:
+
 ```{r shiny-skeleton, eval=FALSE}
 library(shiny)
 
@@ -16,4 +20,7 @@ server <- ...
 
 shinyApp(ui = ui, server = server)
  ```
+ 
+ Don't try to run this app as it will fail since the `ui` and `server` content has not been populated yet. Instead we are going to use this as a skeleton to begin building our first Shiny app!
+
 ## Building Your First Shiny App
