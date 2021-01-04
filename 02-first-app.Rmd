@@ -14,9 +14,9 @@ A Shiny app without any content looks like:
 ```{r shiny-skeleton, eval=FALSE}
 library(shiny)
 
-ui <- ...
+ui <- 
 
-server <- ...
+server <- 
 
 shinyApp(ui = ui, server = server)
  ```
@@ -24,3 +24,23 @@ shinyApp(ui = ui, server = server)
  Don't try to run this app as it will fail since the `ui` and `server` content has not been populated yet. Instead we are going to use this as a skeleton to begin building our first Shiny app!
 
 ## Building Your First Shiny App
+
+Lets begin by building a very simple app to help us build our intuition about how Shiny apps work.
+
+Create a new directory called `shiny-hello-world` in a directory of your choice. From within that directory create a new file called `app.R`.
+
+Within `app.R` we are going to add the three components we need for a working Shiny app, `ui`, `server`, and `shinyApp` that we showed the code for above.
+
+Your `app.R` should look like:
+
+```{r shiny-skeleton-empty, eval=FALSE}
+library(shiny)
+
+ui <-
+
+server <-
+
+shinyApp(ui, server)  
+```
+
+Once again we have

@@ -178,15 +178,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>A Shiny app without any content looks like:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="kw">library</span>(shiny)</a>
 <a class="sourceLine" id="cb3-2" title="2"></a>
-<a class="sourceLine" id="cb3-3" title="3">ui &lt;-<span class="st"> </span>...</a>
+<a class="sourceLine" id="cb3-3" title="3">ui &lt;-<span class="st"> </span></a>
 <a class="sourceLine" id="cb3-4" title="4"></a>
-<a class="sourceLine" id="cb3-5" title="5">server &lt;-<span class="st"> </span>...</a>
+<a class="sourceLine" id="cb3-5" title="5">server &lt;-<span class="st"> </span></a>
 <a class="sourceLine" id="cb3-6" title="6"></a>
 <a class="sourceLine" id="cb3-7" title="7"><span class="kw">shinyApp</span>(<span class="dt">ui =</span> ui, <span class="dt">server =</span> server)</a></code></pre></div>
 <p>Don’t try to run this app as it will fail since the <code>ui</code> and <code>server</code> content has not been populated yet. Instead we are going to use this as a skeleton to begin building our first Shiny app!</p>
 </div>
 <div id="building-your-first-shiny-app" class="section level2">
 <h2><span class="header-section-number">1.2</span> Building Your First Shiny App</h2>
+<p>Lets begin by building a very simple app to help us build our intuition about how Shiny apps work.</p>
+<p>Create a new directory called <code>shiny-hello-world</code> in a directory of your choice. From within that directory create a new file called <code>app.R</code>.</p>
+<p>Within <code>app.R</code> we are going to add the three components we need for a working Shiny app, <code>ui</code>, <code>server</code>, and <code>shinyApp</code> that we showed the code for above.</p>
+<p>Your <code>app.R</code> should look like:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="kw">library</span>(shiny)</a>
+<a class="sourceLine" id="cb4-2" title="2"></a>
+<a class="sourceLine" id="cb4-3" title="3">ui &lt;-</a>
+<a class="sourceLine" id="cb4-4" title="4"></a>
+<a class="sourceLine" id="cb4-5" title="5">server &lt;-</a>
+<a class="sourceLine" id="cb4-6" title="6"></a>
+<a class="sourceLine" id="cb4-7" title="7"><span class="kw">shinyApp</span>(ui, server)  </a></code></pre></div>
+<p>Once again we have</p>
 
 </div>
 </div>
