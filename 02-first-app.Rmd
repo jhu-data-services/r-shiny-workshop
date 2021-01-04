@@ -3,7 +3,7 @@
 ## Structure of a Shiny App
 Shiny apps are run from a single script `app.R` that is made up of three parts:
 
-* A user interface object: The user interface defines object controls how your Shiny app **looks**.
+* A user interface object: The user interface object controls how your Shiny app **looks**.
 * A server function: The server function controls how your Shiny app **runs**.
 * A `shinyApp` function: The `shinyApp` function **builds** your Shiny app.
 
