@@ -16,7 +16,7 @@ Welcome to the JHU Data Services **Shiny** tutorial!
 
 **Shiny** is a framework in the R application for creating interactive R applications using R code. 
 
-With **Shiny** you can build powerful interactive dashboards and visualizatons without minimal to no HTML, CSS, or JavaScript knowledge.
+With **Shiny** you can build powerful interactive dashboards and visualizations with minimal to no knowledge of HTML, CSS, or JavaScript.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
