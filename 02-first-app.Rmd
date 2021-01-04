@@ -47,4 +47,4 @@ server <- function(input, output, session) {
 shinyApp(ui, server)
 ```
 
-If you are using R-Studio, rather than typing all of the above code into your `app.R` file, you can type `shinyapp` and then press <kbd>Shift</kbd>+<kbd>Enter</kbd>
+If you are using R-Studio, rather than typing all of the above code into your `app.R` file, you can type `shinyapp` and then press <kbd>Shift</kbd> + <kbd>Enter</kbd> and the Shiny app skeleton will be generated automatically.
