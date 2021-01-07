@@ -18,6 +18,7 @@ Welcome to the JHU Data Services **Shiny** tutorial!
 
 With **Shiny** you can build powerful interactive dashboards and visualizations with minimal to no knowledge of HTML, CSS, or JavaScript.
 
+## Learning Objectives 
 ***
 By the end of this tutorial, you should be able to:
   
