@@ -1,6 +1,6 @@
 # Adding Control Widgets to Shiny
 
-Some _significant_ applications are demonstrated in this chapter.
+Some _significant_ applications are demonstrated in this chapter. @WICKHAM_2021
 
 ## Example one
 
