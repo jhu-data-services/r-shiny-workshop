@@ -1,6 +1,6 @@
 --- 
 title: "Interactive Data Visualization with R-Shiny"
-author: "Peter Lawson"
+author: "JHU Data Services"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -22,7 +22,7 @@ With **Shiny** you can build powerful interactive dashboards and visualizations 
 ***
 By the end of this tutorial, you should be able to:
   
-- Understand how a Shiny app is structured and run
+- Understand how a Shiny app is structured and runs
 - Be able to configure the aesthetics of a Shiny app
 - Understand the reactive programming model of Shiny
 - Be able to implement a fully functioning Shiny app
