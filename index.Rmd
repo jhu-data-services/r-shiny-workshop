@@ -18,6 +18,16 @@ Welcome to the JHU Data Services **Shiny** tutorial!
 
 With **Shiny** you can build powerful interactive dashboards and visualizations with minimal to no knowledge of HTML, CSS, or JavaScript.
 
+***
+By the end of this tutorial, you should be able to:
+  
+- Understand how a Shiny app is structured and run
+- Be able to configure the aesthetics of a Shiny app
+- Understand the reactive programming model of Shiny
+- Be able to implement a fully functioning Shiny app
+
+***
+
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
