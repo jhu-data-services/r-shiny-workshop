@@ -51,7 +51,7 @@ If you are using R-Studio, rather than typing all of the above code into your `a
 
 > When developing any new Shiny app it is good practice to use the automatically generated boilerplate template, this will ensure you are starting from a working app.
 
-:::note
+:::puzzle
 When developing any new Shiny app it is good practice to use the automatically generated boilerplate template, this will ensure you are starting from a working app.
 :::
 
