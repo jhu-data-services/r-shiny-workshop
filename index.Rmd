@@ -3,7 +3,7 @@ title: "Interactive Data Visualization with R-Shiny"
 author: "JHU Data Services"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-documentclass: book
+fig_caption: false
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
