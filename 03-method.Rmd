@@ -2,8 +2,8 @@
 
 This section of the tutorial will show you how to design the interface to your Shiny app. 
 
-## Adding Control Widgets
+## Layout the User Interface
 
-The primary means of interacting with a Shiny app are with control widgets. Control elements provide a way for your users to communicate with the underlying R process without having to program.
+## Adding HTML Content to the User Interface
 
-![](screenshots/basic-widgets.png)
+### HTML Text Formatting

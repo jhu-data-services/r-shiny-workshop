@@ -1,3 +1,4 @@
 # Displaying Reactive Output
 
-We have finished a nice book.
+Once we have added control widgets to our Shiny, we need to connect the widgets
+to reactive output.

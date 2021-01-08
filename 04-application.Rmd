@@ -1,7 +1,9 @@
-# Adding Control Widgets to Shiny
+# Adding Interactivity to Shiny
 
-Some _significant_ applications are demonstrated in this chapter. @WICKHAM_2021
+## Adding Control Widgets
 
-## Example one
+The primary means of interacting with a Shiny app are with control widgets. Control elements provide a way for your users to communicate with the underlying R process without having to program.
 
-## Example two
+![List of Shiny Control Widgets](screenshots/basic-widgets.png)
+
+@WICKHAM_2021

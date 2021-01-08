@@ -2,8 +2,9 @@ introduction-to-r-shiny
 structure-of-a-shiny-app
 building-your-first-shiny-app
 designing-shiny-user-interfaces
+layout-the-user-interface
+adding-html-content-to-the-user-interface
+html-text-formatting
+adding-interactivity-to-shiny
 adding-control-widgets
-adding-control-widgets-to-shiny
-example-one
-example-two
 displaying-reactive-output
